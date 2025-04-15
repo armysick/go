@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/domain8/domain/src",
+  "prefix": "domain8",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/domain8/domain"],
+      "options": {
+        "jestConfig": "libs/domain8/domain/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/domain8/domain/**/*.ts",
+          "libs/domain8/domain/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:domain8", "type:domain-logic"]
+}

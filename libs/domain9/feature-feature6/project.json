@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/domain9/feature-feature6/src",
+  "prefix": "domain9",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/domain9/feature-feature6"],
+      "options": {
+        "jestConfig": "libs/domain9/feature-feature6/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/domain9/feature-feature6/**/*.ts",
+          "libs/domain9/feature-feature6/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:domain9", "type:feature"]
+}

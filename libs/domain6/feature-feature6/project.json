@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/domain6/feature-feature6/src",
+  "prefix": "domain6",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/domain6/feature-feature6"],
+      "options": {
+        "jestConfig": "libs/domain6/feature-feature6/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/domain6/feature-feature6/**/*.ts",
+          "libs/domain6/feature-feature6/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:domain6", "type:feature"]
+}

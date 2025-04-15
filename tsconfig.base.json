@@ -1,0 +1,631 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@demo/domain1/domain": ["libs/domain1/domain/src/index.ts"],
+      "@demo/domain1/feature-feature1": [
+        "libs/domain1/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature10": [
+        "libs/domain1/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature11": [
+        "libs/domain1/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature12": [
+        "libs/domain1/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature13": [
+        "libs/domain1/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature14": [
+        "libs/domain1/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature15": [
+        "libs/domain1/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature16": [
+        "libs/domain1/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature17": [
+        "libs/domain1/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature18": [
+        "libs/domain1/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature19": [
+        "libs/domain1/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature2": [
+        "libs/domain1/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature20": [
+        "libs/domain1/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature3": [
+        "libs/domain1/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature4": [
+        "libs/domain1/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature5": [
+        "libs/domain1/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature6": [
+        "libs/domain1/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature7": [
+        "libs/domain1/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature8": [
+        "libs/domain1/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain1/feature-feature9": [
+        "libs/domain1/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain10/domain": ["libs/domain10/domain/src/index.ts"],
+      "@demo/domain10/feature-feature1": [
+        "libs/domain10/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature10": [
+        "libs/domain10/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature11": [
+        "libs/domain10/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature12": [
+        "libs/domain10/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature13": [
+        "libs/domain10/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature14": [
+        "libs/domain10/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature15": [
+        "libs/domain10/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature16": [
+        "libs/domain10/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature17": [
+        "libs/domain10/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature18": [
+        "libs/domain10/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature19": [
+        "libs/domain10/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature2": [
+        "libs/domain10/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature20": [
+        "libs/domain10/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature3": [
+        "libs/domain10/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature4": [
+        "libs/domain10/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature5": [
+        "libs/domain10/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature6": [
+        "libs/domain10/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature7": [
+        "libs/domain10/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature8": [
+        "libs/domain10/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain10/feature-feature9": [
+        "libs/domain10/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain2/domain": ["libs/domain2/domain/src/index.ts"],
+      "@demo/domain2/feature-feature1": [
+        "libs/domain2/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature10": [
+        "libs/domain2/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature11": [
+        "libs/domain2/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature12": [
+        "libs/domain2/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature13": [
+        "libs/domain2/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature14": [
+        "libs/domain2/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature15": [
+        "libs/domain2/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature16": [
+        "libs/domain2/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature17": [
+        "libs/domain2/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature18": [
+        "libs/domain2/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature19": [
+        "libs/domain2/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature2": [
+        "libs/domain2/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature20": [
+        "libs/domain2/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature3": [
+        "libs/domain2/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature4": [
+        "libs/domain2/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature5": [
+        "libs/domain2/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature6": [
+        "libs/domain2/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature7": [
+        "libs/domain2/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature8": [
+        "libs/domain2/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain2/feature-feature9": [
+        "libs/domain2/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain3/domain": ["libs/domain3/domain/src/index.ts"],
+      "@demo/domain3/feature-feature1": [
+        "libs/domain3/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature10": [
+        "libs/domain3/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature11": [
+        "libs/domain3/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature12": [
+        "libs/domain3/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature13": [
+        "libs/domain3/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature14": [
+        "libs/domain3/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature15": [
+        "libs/domain3/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature16": [
+        "libs/domain3/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature17": [
+        "libs/domain3/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature18": [
+        "libs/domain3/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature19": [
+        "libs/domain3/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature2": [
+        "libs/domain3/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature20": [
+        "libs/domain3/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature3": [
+        "libs/domain3/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature4": [
+        "libs/domain3/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature5": [
+        "libs/domain3/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature6": [
+        "libs/domain3/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature7": [
+        "libs/domain3/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature8": [
+        "libs/domain3/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain3/feature-feature9": [
+        "libs/domain3/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain4/domain": ["libs/domain4/domain/src/index.ts"],
+      "@demo/domain4/feature-feature1": [
+        "libs/domain4/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature10": [
+        "libs/domain4/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature11": [
+        "libs/domain4/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature12": [
+        "libs/domain4/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature13": [
+        "libs/domain4/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature14": [
+        "libs/domain4/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature15": [
+        "libs/domain4/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature16": [
+        "libs/domain4/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature17": [
+        "libs/domain4/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature18": [
+        "libs/domain4/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature19": [
+        "libs/domain4/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature2": [
+        "libs/domain4/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature20": [
+        "libs/domain4/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature3": [
+        "libs/domain4/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature4": [
+        "libs/domain4/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature5": [
+        "libs/domain4/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature6": [
+        "libs/domain4/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature7": [
+        "libs/domain4/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature8": [
+        "libs/domain4/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain4/feature-feature9": [
+        "libs/domain4/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain5/domain": ["libs/domain5/domain/src/index.ts"],
+      "@demo/domain5/feature-feature1": [
+        "libs/domain5/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature10": [
+        "libs/domain5/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature11": [
+        "libs/domain5/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature12": [
+        "libs/domain5/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature13": [
+        "libs/domain5/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature14": [
+        "libs/domain5/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature15": [
+        "libs/domain5/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature16": [
+        "libs/domain5/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature17": [
+        "libs/domain5/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature18": [
+        "libs/domain5/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature19": [
+        "libs/domain5/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature2": [
+        "libs/domain5/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature20": [
+        "libs/domain5/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature3": [
+        "libs/domain5/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature4": [
+        "libs/domain5/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature5": [
+        "libs/domain5/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature6": [
+        "libs/domain5/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature7": [
+        "libs/domain5/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature8": [
+        "libs/domain5/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain5/feature-feature9": [
+        "libs/domain5/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain6/domain": ["libs/domain6/domain/src/index.ts"],
+      "@demo/domain6/feature-feature1": [
+        "libs/domain6/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature10": [
+        "libs/domain6/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature11": [
+        "libs/domain6/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature12": [
+        "libs/domain6/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature13": [
+        "libs/domain6/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature14": [
+        "libs/domain6/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature15": [
+        "libs/domain6/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature16": [
+        "libs/domain6/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature17": [
+        "libs/domain6/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature18": [
+        "libs/domain6/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature19": [
+        "libs/domain6/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature2": [
+        "libs/domain6/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature20": [
+        "libs/domain6/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature3": [
+        "libs/domain6/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature4": [
+        "libs/domain6/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature5": [
+        "libs/domain6/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature6": [
+        "libs/domain6/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature7": [
+        "libs/domain6/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature8": [
+        "libs/domain6/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain6/feature-feature9": [
+        "libs/domain6/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain7/domain": ["libs/domain7/domain/src/index.ts"],
+      "@demo/domain7/feature-feature1": [
+        "libs/domain7/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature10": [
+        "libs/domain7/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature11": [
+        "libs/domain7/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature12": [
+        "libs/domain7/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature13": [
+        "libs/domain7/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature14": [
+        "libs/domain7/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature15": [
+        "libs/domain7/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature16": [
+        "libs/domain7/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature17": [
+        "libs/domain7/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature18": [
+        "libs/domain7/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature19": [
+        "libs/domain7/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature2": [
+        "libs/domain7/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature20": [
+        "libs/domain7/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature3": [
+        "libs/domain7/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature4": [
+        "libs/domain7/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature5": [
+        "libs/domain7/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature6": [
+        "libs/domain7/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature7": [
+        "libs/domain7/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature8": [
+        "libs/domain7/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain7/feature-feature9": [
+        "libs/domain7/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain8/domain": ["libs/domain8/domain/src/index.ts"],
+      "@demo/domain8/feature-feature1": [
+        "libs/domain8/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature10": [
+        "libs/domain8/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature11": [
+        "libs/domain8/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature12": [
+        "libs/domain8/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature13": [
+        "libs/domain8/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature14": [
+        "libs/domain8/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature15": [
+        "libs/domain8/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature16": [
+        "libs/domain8/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature17": [
+        "libs/domain8/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature18": [
+        "libs/domain8/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature19": [
+        "libs/domain8/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature2": [
+        "libs/domain8/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature20": [
+        "libs/domain8/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature3": [
+        "libs/domain8/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature4": [
+        "libs/domain8/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature5": [
+        "libs/domain8/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature6": [
+        "libs/domain8/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature7": [
+        "libs/domain8/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature8": [
+        "libs/domain8/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain8/feature-feature9": [
+        "libs/domain8/feature-feature9/src/index.ts"
+      ],
+      "@demo/domain9/domain": ["libs/domain9/domain/src/index.ts"],
+      "@demo/domain9/feature-feature1": [
+        "libs/domain9/feature-feature1/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature10": [
+        "libs/domain9/feature-feature10/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature11": [
+        "libs/domain9/feature-feature11/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature12": [
+        "libs/domain9/feature-feature12/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature13": [
+        "libs/domain9/feature-feature13/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature14": [
+        "libs/domain9/feature-feature14/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature15": [
+        "libs/domain9/feature-feature15/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature16": [
+        "libs/domain9/feature-feature16/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature17": [
+        "libs/domain9/feature-feature17/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature18": [
+        "libs/domain9/feature-feature18/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature19": [
+        "libs/domain9/feature-feature19/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature2": [
+        "libs/domain9/feature-feature2/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature20": [
+        "libs/domain9/feature-feature20/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature3": [
+        "libs/domain9/feature-feature3/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature4": [
+        "libs/domain9/feature-feature4/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature5": [
+        "libs/domain9/feature-feature5/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature6": [
+        "libs/domain9/feature-feature6/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature7": [
+        "libs/domain9/feature-feature7/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature8": [
+        "libs/domain9/feature-feature8/src/index.ts"
+      ],
+      "@demo/domain9/feature-feature9": [
+        "libs/domain9/feature-feature9/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

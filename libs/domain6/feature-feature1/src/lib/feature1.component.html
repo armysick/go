@@ -1,0 +1,9 @@
+<h1>domain6-feature1</h1>
+
+<table class="table">
+  <tr *ngFor="let entity1 of entity1List$ | async">
+    <td>{{ entity1.id }}</td>
+    <td>{{ entity1.name }}</td>
+    <td>{{ entity1.description }}</td>
+  </tr>
+</table>

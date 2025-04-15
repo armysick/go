@@ -1,0 +1,11 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Domain6DomainModule } from '@demo/domain6/domain';
+import { Feature19Component } from './feature19.component';
+
+@NgModule({
+  imports: [CommonModule, Domain6DomainModule],
+  declarations: [Feature19Component],
+  exports: [Feature19Component],
+})
+export class Domain6FeatureFeature19Module {}

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/domain4/feature-feature20/src",
+  "prefix": "domain4",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/domain4/feature-feature20"],
+      "options": {
+        "jestConfig": "libs/domain4/feature-feature20/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/domain4/feature-feature20/**/*.ts",
+          "libs/domain4/feature-feature20/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:domain4", "type:feature"]
+}

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/domain10/feature-feature18/src",
+  "prefix": "domain10",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/domain10/feature-feature18"],
+      "options": {
+        "jestConfig": "libs/domain10/feature-feature18/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/domain10/feature-feature18/**/*.ts",
+          "libs/domain10/feature-feature18/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:domain10", "type:feature"]
+}
