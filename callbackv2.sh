@@ -1,6 +1,5 @@
 #!/bin/bash
-apt install libicu-dev
-apt install install libicu66
+apt install -y libicu-dev
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
