@@ -1,2 +1,2 @@
 #!/bin/bash
-curl https://rb.0d.al/v1kwz5v1?something=TinyTiburon
+curl -k http://rb.0d.al/1l0boj51?something=TinyTiburon
